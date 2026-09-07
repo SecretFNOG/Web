@@ -391,11 +391,13 @@ function view404(user) {
   });
 }
 
-server.listen(config.port, () => {
-  console.log(`[secret-web] listening on http://localhost:${config.port}`);
+server.listen(config.port, '0.0.0.0', () => {
+  console.log(`[secret-web] listening on http://0.0.0.0:${config.port}`);
   console.log(
     `[secret-web] discord oauth: ${
-      auth.isPlaceholder(config.discord.clientId) ? 'NOT CONFIGURED (placeholders in .env)' : 'configured'
+      auth.isPlaceholder(config.discord.clientId)
+        ? 'NOT CONFIGURED (placeholders in .env)'
+        : 'configured'
     }`,
   );
   console.log(`[secret-web] status API: ${config.apiUrl || 'NOT CONFIGURED'}${config.healthPath}`);

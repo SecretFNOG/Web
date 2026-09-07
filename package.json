@@ -1,0 +1,13 @@
+{
+  "name": "secret-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secret website — landing, Discord auth, store and status.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "currency": { "code": "GBP", "symbol": "£" },
+  "note": "Payments open soon, donator perks are applied automatically",
+  "tiers": [
+    {
+      "id": "ultimate",
+      "name": "Ultimate Donator",
+      "icon": "star",
+      "price": 60,
+      "blurb": "Everything Secret has to offer — the full package.",
+      "perks": [
+        "Everything in Crystal Donator",
+        "All current and future donator cosmetics",
+        "Custom name colour and banner",
+        "Priority queue access"
+      ]
+    },
+    {
+      "id": "crystal",
+      "name": "Crystal Donator",
+      "icon": "diamond",
+      "price": 35,
+      "blurb": "Only available for a limited time!",
+      "perks": [
+        "Everything in Elite Donator",
+        "Exclusive crystal cosmetics in-game",
+        "Crystal role in our Discord server",
+        "Early access to new game modes"
+      ]
+    },
+    {
+      "id": "elite",
+      "name": "Elite Donator",
+      "icon": "shield",
+      "price": 20,
+      "blurb": "Stand out with the Elite treatment.",
+      "perks": [
+        "Everything in OG Donator",
+        "Collection of sweat skins",
+        "Elite role in our Discord server"
+      ]
+    },
+    {
+      "id": "og",
+      "name": "OG Donator",
+      "icon": "crown",
+      "price": 10,
+      "blurb": "For the ones who were there from the start.",
+      "perks": [
+        "OG role in our Discord server",
+        "Collection of OG cosmetics",
+        "Supporter badge"
+      ]
+    }
+  ]
+}
